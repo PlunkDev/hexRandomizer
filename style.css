@@ -16,6 +16,7 @@ body{
     place-items: center;
     display: grid;
     height: 3vh;
+    font-size: 2vh;
 }
 #strona{
     display: grid;
@@ -32,24 +33,26 @@ body{
 
 #kolor{
     background-color: black;
-    border-radius: 15px;
+    border-radius: 100px;
     color: white;
     padding: 15px;
     font-size: 25px;
 }
 
 #przycisk{
+    margin-top: 5px;
     background-color: transparent;
     border: 2px solid black;
-    border-radius: 5px;
+    border-radius: 100px;
     transition: 0.4s;
     padding: 4px;
+    color: black;
+    
 }
 
 #przycisk:hover{
     color: white;
     background-color: black;
     transition: 0.4s;
-    border-radius: 10px;
     cursor: pointer;
 }
