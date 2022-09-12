@@ -17,7 +17,7 @@ function funkcja(){
     document.getElementById("tytul").style.color="#"+hex;
     colorName.innerHTML = "Hex Koloru: "+"#"+hex;
     console.log(hex);
-    history.pushState({}, null, "?hex="+hex);
+    history.pushState({}, null, "https://plunkdev.github.io/hexRandomizer/?hex="+hex);
 }
 
 function randomColor(){
