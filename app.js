@@ -17,6 +17,8 @@ function randomColor(){
     return Math.floor(Math.random()*color.length);
 }
 
+/*
+function funkcja(){
     color++;
     if (color == 1){
         document.getElementById("strona").style.backgroundColor="red";
