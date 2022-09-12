@@ -4,10 +4,19 @@ colorName = document.getElementById("kolor");
 const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const urlHex = urlParams.get("hex");
-document.getElementById("strona").style.backgroundColor="#"+urlHex;
-document.getElementById("tytul").style.color="#"+urlHex;
-colorName.innerHTML = "Hex Koloru: "+"#"+urlHex;
-console.log(urlHex);
+if (urlHex=0){
+    document.getElementById("strona").style.backgroundColor="#40e0d0";
+    document.getElementById("tytul").style.color="#40e0d0";
+    colorName.innerHTML = "Hex Koloru: "+"#40e0d0";
+    console.log(urlHex);
+}
+else{
+    document.getElementById("strona").style.backgroundColor="#"+urlHex;
+    document.getElementById("tytul").style.color="#"+urlHex;
+    colorName.innerHTML = "Hex Koloru: "+"#"+urlHex;
+    console.log(urlHex);
+}
+
 
 const color = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "F"];
 
