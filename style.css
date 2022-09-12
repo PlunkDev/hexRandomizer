@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background-color: turquoise;
+}
+#wrapper{  
+    height: 100%;
+    width: 100%;
+}
+
+#tytul{
+    background-color: white;
+    color: turquoise;
+    place-items: center;
+    display: grid;
+    height: 3vh;
+}
+#strona{
+    display: grid;
+    place-items: center;
+    height: 97vh;
+    transition: background-color 1s;
+}
+
+#place{
+    height: 10vh;
+    display: grid;
+    place-items: center;
+}
+
+#kolor{
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+}
+
+#przycisk{
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: 0.4s;
+    padding: 4px;
+}
+
+#przycisk:hover{
+    color: white;
+    background-color: black;
+    transition: 0.4s;
+    border-radius: 10px;
+    cursor: pointer;
+}
